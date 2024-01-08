@@ -7,7 +7,7 @@ Run `nora help`
 ## Installation
 Req: Linux, Bash, Curl, Podman, Docker, Distrobox
 ```sh
-$ sudo curl https://entrpix.me/vizum/install.sh | bash
+$ sudo curl https://entrpix.me/nora/install.sh | bash
 ```
 
 ## Setup
