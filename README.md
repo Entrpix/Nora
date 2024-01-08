@@ -25,3 +25,7 @@ Before using Nora their is setup that needs to be done
     - Then input the name you choose for your Arch Instance
 9. Your done!
     - run `nora help` for usage
+  
+## Credit
+Yay - https://github.com/Jguer/yay
+Distrobox - https://github.com/89luca89/distrobox/
