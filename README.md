@@ -27,5 +27,5 @@ Before using Nora their is setup that needs to be done
     - run `nora help` for usage
   
 ## Credit
-Yay - https://github.com/Jguer/yay
-Distrobox - https://github.com/89luca89/distrobox/
+- Yay - https://github.com/Jguer/yay
+- Distrobox - https://github.com/89luca89/distrobox/
