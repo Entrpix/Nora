@@ -13,6 +13,7 @@ help() {
     echo "  install <package> - Install the AUR package <package>."
     echo "  export <package> - Export the AUR package <package> to your host application launcher."
     echo "  remove <package> - Remove the AUR package <package>."
+    echo " open <package> - Open the AUR package <package>."
 }
 
 init() {
@@ -67,6 +68,12 @@ remove() {
     distrobox enter "$distro" -- yay -R "$1"
 }
 
+open() {
+    distro=$(cat ~/.config/nora/nora.conf)
+    distrobox enter "$distro" -- "$1"
+
+}
+
 if ! command -v distrobox &> /dev/null
 then
     echo "It appears that Distrobox is not installed."
@@ -89,6 +96,8 @@ elif [ "$1" == "remove" ]; then
     remove $2
 elif [ "$1" == "export" ]; then
     export $2
+elif [ "$1" == "open" ]; then
+    open $2
 else
     echo "Invalid command."
 fi
