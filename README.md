@@ -1,5 +1,5 @@
 # Nora
-CLI Tool for Using AUR Packages on Non-Arch Based Distros
+CLI Tool for Using AUR Packages on Non-Arch Based Distros (WSL Support aswell!)
 
 ## Usage
 Run `nora help`
