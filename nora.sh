@@ -13,7 +13,7 @@ help() {
     echo "  install <package> - Install the AUR package <package>."
     echo "  export <package> - Export the AUR package <package> to your host application launcher."
     echo "  remove <package> - Remove the AUR package <package>."
-    echo " open <package> - Open the AUR package <package>."
+    echo "  open <package> - Open the AUR package <package>."
 }
 
 init() {
