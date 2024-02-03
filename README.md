@@ -14,7 +14,7 @@ $ sudo curl https://entrpix.me/nora/install.sh | bash
 Before using Nora their is setup that needs to be done
 1. `distrobox create -i docker.io/library/archlinux -n *Name Here*`
     - This creates a Arch Distrobox Instance
-2. `distrbox enter *Name Here*`
+2. `distrobox enter *Name Here*`
 3. `sudo pacman -S git base-devel`
     - Tools needed for building [Yay](https://github.com/Jguer/yay)
 4. `git clone https://aur.archlinux.org/yay.git`
